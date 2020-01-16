@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#86712F"
-    android:backgroundTint="#FACB35"
+    android:backgroundTint="#CFE2E4"
     tools:context=".Loginpegawai">
 
     <LinearLayout
-        android:layout_width="406dp"
-        android:layout_height="396dp"
-        android:background="@drawable/worker"
+        android:layout_width="389dp"
+        android:layout_height="333dp"
+        android:background="@drawable/trash"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Email"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFEB3B" />
 
         <EditText
             android:id="@+id/Email"
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Password"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFEB3B" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="300dp"
@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10pt"
-                android:background="#ff1a1a"
+                android:background="#FFEB3B"
                 android:gravity="center"
                 android:onClick="login"
                 android:text="Login" />
@@ -72,12 +72,13 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="STMIK-TRASH"
         android:textAlignment="center"
-        android:textColor="#ff1a1a"
+        android:textColor="#8BC34A"
         android:textSize="30dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="47dp"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFC107"
+    android:background="#F5EFDC"
     tools:context=".MainActivity">
 
     <Button
@@ -64,15 +64,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="327dp"
-        android:layout_height="369dp"
+        android:layout_width="318dp"
+        android:layout_height="515dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="-13dp"
-        app:srcCompat="@drawable/worker" />
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/pancasila" />
 
 </RelativeLayout>
